@@ -1,0 +1,7 @@
+.parrafo {
+  display: none;
+}
+
+.parrafo-container, .button-container {
+  height: 100px;
+}

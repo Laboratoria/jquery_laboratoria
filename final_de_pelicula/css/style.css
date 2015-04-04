@@ -1,0 +1,50 @@
+body {
+  background: #2f558e url(../img/bg.png) repeat 0 0;
+  background-size: 400px auto;
+  font-family: sans-serif;
+}
+img {
+  display: block;
+  width: 150px;
+  margin: 100px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-14 {
+  margin-bottom: 14px;
+}
+
+small {
+  font-size: 0.6em;
+}
+
+.spoiler-caja {
+	background: #1d3c6a;
+  width: 440px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-family: 'Verdana';
+}
+
+.spoiler {
+  display: none;
+  padding-top: 21px;
+}
+
+.advertencia, .spoiler {
+  cursor: pointer;
+  height: 100%;
+  padding-top: 7%;
+}
+
+.spoiler {
+  padding-top: 14%;
+  background-color: #52B3D9;
+}
