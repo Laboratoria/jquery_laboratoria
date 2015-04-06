@@ -12,18 +12,19 @@ $("#imageGallery a").click(function(event){
   //Update overlay with the image linked in the link
   $image.attr("src", imageLocation);
   
-  //Show the overlay.
-  $overlay.show();
-  
   //Get child's alt attribute and set caption
   var captionText = $(this).children("img").attr("alt");
   $caption.text(captionText);
+  
+  //Show the overlay.
+  $overlay.show();
+  
 });
 
 //When overlay is clicked
 $overlay.click(function(){
   //Hide the overlay
-  $overlay.hide();
+  $(this).hide();
 });
 
 
